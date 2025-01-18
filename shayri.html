@@ -30,7 +30,7 @@
             align-items: center;
             overflow: hidden;
             background-size: cover;
-            min-width: 60%;
+            width: 75%;
             height: 90%;
             text-align: center;
             border-radius: 15px;
@@ -41,17 +41,17 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 90%;
+            height: 80%;
         }
 
         .shayri h3 {
-            line-height: 3;
+            line-height: 2.5;
             color: rgb(255, 255, 255);
             text-align: center;
-            font-size: 30px;
+            font-size: 26px;
         }
 
-        .btn a button{
+        .btn a button {
             font-size: 15px;
             padding-left: 5%;
             padding-right: 5%;
@@ -62,16 +62,34 @@
             border-radius: 100px;
             border: none;
         }
-        .btn a button:hover{
+
+        .btn a button:hover {
             color: black;
             background-color: white;
             transition: 0.3s;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         }
+        .creator{
+            margin-top: 3rem;
+        }
+        .creator p a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+
+        }
+
+        .creator p a:hover {
+            border-bottom: 1px solid rgb(255, 255, 255);
+        }
+        @media(max-width:480px){
+            .shayri h3{
+                font-size: 20px;
+            } 
+        }
     </style>
 </head>
 
-<body> 
+<body>
     <div class="container">
         <div class="shayri">
             <h3>अपने हसीन होंठों को किसी<br> परदे में छुपा लिया करो,<br>
@@ -83,7 +101,10 @@
                 <button>Last Page</button>
             </a>
         </div>
+        <div class="creator">
+            <p><a href="https://github.com/harssh-workspace">Created by harssh-workspace</a></p>
+        </div>
     </div>
 </body>
 
-</html> 
+</html>
