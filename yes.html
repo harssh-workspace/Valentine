@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Playwrite+VN:wght@100..400&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        .container {
+            align-items: center;
+            overflow: hidden;
+            background-image: url('/imgs/img11.jpeg');
+            overflow: hidden;
+            background-size: cover;
+            min-width: 40%;
+            height: 90%;
+            text-align: center;
+            border-radius: 15px;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+
+        .thank img {
+            height: 250px;
+            width: 280px;
+        }
+
+        .mogged img {
+            height: 250px;
+            width: 280px;
+            border-radius: 15px;
+            box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        }
+
+        .thank h1 {
+            color: rgb(0, 0, 0);
+            font-size: 70px;
+            font-family: "Jersey 15", serif;
+        }
+
+        .thank h3 {
+            color: rgb(0, 0, 0);
+            font-family: "Jersey 15", serif;
+            margin-top: 1rem;
+            font-size: 35px;
+        }
+
+        .btn {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            margin: 20px;
+        }
+
+        .btn p {
+            color: black;
+            font-size: 30px;
+        }
+
+        .btn a {
+            margin-top: 2rem;
+            text-decoration: none;
+            border-radius: 10px;
+            color: black;
+            background-color: palevioletred;
+            padding: 10px;
+            font-size: 40px;
+        }
+
+        .btn a:hover {
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        }
+
+        @media(max-width:480px) {
+            .thank h1 {
+                font-size: 50px;
+            }
+
+            .thank h3 {
+                margin-top: 0.6rem;
+                font-size: 25px;
+            }
+            .btn{
+                margin: 15px;
+            }
+        }
+
+        @media(max-width:430px) {
+            .container {
+                min-width: 95%;
+
+            }
+        }
+        @media(max-width:768px){
+            .container{
+                min-width: 95%;
+            }
+        }
+        @media(max-width:1369px){
+            .container{
+                min-width: 95%;
+            }
+        }
+
+        @media(max-height:768px) {
+            .thank img {
+                height: 200px;
+                width: 230px;
+            }
+
+            .mogged img {
+                height: 200px;
+                width: 230px;
+            }
+            .btn a{
+                font-size: 20px;
+                margin-top: 1rem;
+            }
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="thank">
+            <h1>THANK YOU</h1>
+            <h3>Happy Valentine's Day</h3>
+            <img src="/imgs/img7.png" alt="thanks-img">
+        </div>
+        <div class="mogged">
+            <img src="/imgs/mogged.gif" alt="gif">
+        </div>
+        <div class="aud">
+            <audio autoplay loop>
+                <source src="/imgs/congratulations.mp3" type="audio/mp3" />
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <div class="btn">
+            <p>Don't go yet!</p>
+            <a href="shayri.html">Click Here hehehe!</a>
+        </div>
+    </div>
+</body>
+
+</html>
