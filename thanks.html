@@ -32,22 +32,21 @@
         }
 
         .container {
-
+            /* background-image: url('/imgs/img12.jpeg'); */
             align-items: center;
             overflow: hidden;
             background-size: cover;
-            /* width: 90%;
-            height: 90%; */
-            margin: 3px;
+            width: 80%;
+            height: 90%;
             text-align: center;
             border-radius: 15px;
             box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
         }
 
-        .thank h1 {
+        .thank h3 {
             text-align: center;
             font-family: "Taviraj", serif;
-            font-size: 50px;
+            font-size: 25px;
 
         }
 
@@ -55,8 +54,8 @@
             overflow: hidden;
             align-items: center;
             justify-content: center;
-            height: 400px;
-            width: 430px;
+            height: 200px;
+            width: 230px;
         }
 
         @media(max-width:480px) {
@@ -65,12 +64,16 @@
             }
 
             img {
-                height: 300px;
-                width: 330px;
+                height: 200px;
+                width: 230px;
             }
         }
 
         @media(max-width:768px) {
+            .container{
+                height: 70%;
+                width: 90%;
+            }
             .thank h1 {
                 font-size: 45px;
 
@@ -131,7 +134,7 @@
 <body>
     <div class="container">
         <div class="thank">
-            <h1>Thank you for being my special valentine (My Life Partner)</h1>
+            <h3>Thank you for being my special valentine (My Life Partner)</h3>
         </div>
         <div class="img">
             <img src="/imgs/img14.png" alt="enveloap photo">
