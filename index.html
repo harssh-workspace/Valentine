@@ -141,7 +141,7 @@
     </div>
 
     <script>
-        const noButton = document.getElementById('no'); // Select the "No" button
+        const noButton = document.getElementById('no');
         const messages = [
             "Are you really sure?",
             "Are you really really sure???",
@@ -159,12 +159,12 @@
             "Are you sure?"
         ];
     
-        let currentMessageIndex = 0; // Track the current message
+        let currentMessageIndex = 0;
     
         noButton.addEventListener('click', (e) => {
-            e.preventDefault(); // Prevent default action of the link
-            noButton.textContent = messages[currentMessageIndex]; // Update button text
-            currentMessageIndex = (currentMessageIndex + 1) % messages.length; // Loop back to the start
+            e.preventDefault(); 
+            noButton.textContent = messages[currentMessageIndex]; 
+            currentMessageIndex = (currentMessageIndex + 1) % messages.length;
         });
     </script>
     
